@@ -1,3 +1,6 @@
+/*tecnica para transforma uma função com N parametros 
+  em uma função com um paramentro e para cada
+  paramentro é retorna outra função*/
 function soma(a){
    return function(b){
        return a + b;
